@@ -357,9 +357,10 @@
 "Assets/Scripts/DraggableObject.cs"
 "Assets/Scripts/DrinkProduct.cs"
 "Assets/Scripts/FoodProduct.cs"
-"Assets/Scripts/GameplayManager.cs"
 "Assets/Scripts/Product.cs"
 "Assets/Scripts/ProductScanner.cs"
+"Assets/Scripts/ProductSpawner.cs"
+"Assets/Scripts/Receipt.cs"
 -langversion:9.0
 /deterministic
 /optimize+

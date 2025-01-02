@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class ProductScanner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] Receipt receipt;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        Product product = other.GetComponent<Product>();
+        if (product != null)
+        {
+            receipt.AddProduct(product);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit(Collider other)
     {
-        
+        Product product = other.GetComponent<Product>();
+        if (product != null)
+        {
+            receipt.RemoveProduct(product);
+        }
     }
 }
