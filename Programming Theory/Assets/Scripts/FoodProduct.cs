@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FoodProduct : Product
+public class FoodProduct : Product // INHERITANCE
 {
     // Array of generic food names
     private string[] foodNames = { "Bread", "Crackers", "Cheese", "Biscuits", "Wafers", "Cereal", "Chips", "Cookies", "Pretzels", "Bagels", "Croissants", "Pancakes", "Muffins", "Brownies", "Cupcakes" };

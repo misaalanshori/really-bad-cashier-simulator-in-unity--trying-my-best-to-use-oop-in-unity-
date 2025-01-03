@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DrinkProduct : Product
+public class DrinkProduct : Product // INHERITANCE
 {
     // Array of generic drink names
     private string[] drinkNames = { "Water", "Soda", "Juice", "Tea", "Coffee", "Smoothie", "Milkshake", "Lemonade", "Iced Tea", "Hot Chocolate", "Energy Drink", "Milk", "Sparkling Water", "Mocktail", "Sports Drink" };

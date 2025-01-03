@@ -4,8 +4,8 @@ using UnityEngine;
 
 public abstract class Product : MonoBehaviour
 {
-    public string productName { get; protected set; }
-    public int productPrice { get; protected set; }
+    public string productName { get; protected set; } // ENCAPSULATION
+    public int productPrice { get; protected set; } // ENCAPSULATION
 
     // Start is called before the first frame update
     protected void Start()

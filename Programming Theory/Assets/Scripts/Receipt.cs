@@ -15,7 +15,7 @@ public class Receipt : MonoBehaviour
     }
 
     // Method to add a product to the list
-    public void AddProduct(Product product)
+    public void AddProduct(Product product) // ABSTRACTION
     {
         if (product != null && !products.Contains(product))
         {
@@ -25,7 +25,7 @@ public class Receipt : MonoBehaviour
     }
 
     // Method to remove a product from the list
-    public void RemoveProduct(Product product)
+    public void RemoveProduct(Product product) // ABSTRACTION
     {
         if (product != null && products.Contains(product))
         {
