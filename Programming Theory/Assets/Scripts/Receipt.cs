@@ -37,8 +37,13 @@ public class Receipt : MonoBehaviour
     // Method to render text for all products in the list
     public void RenderText()
     {
+        string storeName = "";
+        if (MainManager.Instance)
+        {
+            storeName = MainManager.Instance.storeName + " - ";
+        }
         int total = 0;
-        string text = "Receipt:";
+        string text = $"{storeName}Receipt:";
         foreach (var product in products)
         {
             text += "\n";
